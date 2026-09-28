@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">project-3</string>
+    <string name="input_name_instruction">아래에 이름 입력</string>
+    <string name="name_label">이름 : </string>
+    <string name="name_hint">여기에 이름을 작성하세요</string>
+    <string name="confirm_button">확인</string>
+    <string name="result_text">입력한 이름: %1$s</string>
+</resources>

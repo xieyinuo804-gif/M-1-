@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 눌렸을 때 (빨간색) -->
+    <item android:state_pressed="true" android:color="@color/red"/>
+    <!-- 포커스를 받았을 때 (빨간색) -->
+    <item android:state_focused="true" android:color="@color/red"/>
+    <!-- 비활성화 상태일 때 (회색) -->
+    <item android:state_enabled="false" android:color="#AAAAAA"/>
+    <!-- 기본 상태 (파란색) -->
+    <item android:color="@color/blue"/>
+</selector>

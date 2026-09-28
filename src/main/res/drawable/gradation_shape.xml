@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <!-- 세로방향 그라데이션 90도=위→아래 -->
+    <gradient
+        android:angle="90"
+        android:startColor="#4488dd"
+        android:endColor="#88ccff"/>
+    <corners android:radius="8dp"/>
+</shape>
