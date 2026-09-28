@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center_horizontal">
+
+
+    <ProgressBar
+        android:id="@+id/pbIndeterminate"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        style="?android:attr/progressBarStyleLarge"
+        android:indeterminate="true"/>
+
+    <TextView
+        android:id="@+id/tvTopPercent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0%"
+        android:textSize="22sp"
+        android:layout_marginBottom="20dp"/>
+
+
+    <ProgressBar
+        android:id="@+id/pbHorizontal"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="0"
+        android:secondaryProgress="0"
+        android:layout_marginBottom="30dp"/>
+
+
+    <FrameLayout
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="30dp">
+
+        <ProgressBar
+            android:id="@+id/pbCircle"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:progressDrawable="@drawable/circle"
+            android:max="100"
+            android:progress="0"/>
+
+        <TextView
+            android:id="@+id/tvCirclePercent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="0%"
+            android:textSize="30sp"/>
+    </FrameLayout>
+
+
+
+    <ProgressBar
+        android:id="@+id/pbVertical"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="71dp"
+        android:layout_height="142dp"
+        android:max="100"
+        android:progress="0"
+        android:progressDrawable="@drawable/vertical_progressbar" />
+
+    <TextView
+        android:id="@+id/tvVerticalPercent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginBottom="30dp"/>
+
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="시작"/>
+
+</LinearLayout>
